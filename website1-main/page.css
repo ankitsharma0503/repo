@@ -10,7 +10,7 @@ body, html {
 
   .bg {
     /* The image used */
-    background-image:linear-gradient(rgba(0,8,51,0.9),rgba(0,8,51,0.9)), url("unnamed.jpg");
+    background-image:linear-gradient(rgba(0,8,51,0.9),rgba(0,8,51,0.9)), url("image/unnamed.jpg");
     opacity: 0.95;
   
     /* Full height */
@@ -104,4 +104,8 @@ body, html {
         display: block;
         text-align:center;  
     }
+ }
+
+ .navbar-brand{
+  font: 'helvetica';
  }
