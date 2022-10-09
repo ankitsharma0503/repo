@@ -20,6 +20,7 @@ int ele;
 printf("Enter the element to print on position ");
 scanf("%d",&ele);
 if(pos > n)
+
 printf("Invalid Input");
 else
 {
@@ -31,7 +32,7 @@ arr[pos-1] = ele;
 printf("Array after insertion is:\n");
 
 for (i=0; i<=n;i++)
-printf("%d\n", arr[i]);
+printf(" %d",  arr[i]);
 }
 
 return 0;
